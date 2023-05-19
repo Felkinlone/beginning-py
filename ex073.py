@@ -1,0 +1,11 @@
+x = 'Palmeiras', 'Internacional', 'Corinthias', 'Flamengo', 'Fluminense', 'Athletico-PR', 'Atlético-MG', 'América-MG', 'Botafogo', 'Fortaleza', 'Santos', 'São Paulo', 'Bragantino', 'Goias', 'Curitiba', 'Ceará SC', 'Cuiabá', 'Atlético-GO', 'Avaí', 'Juventude'
+print('-=' * 15)
+print(f'Lista de times: {x}')
+print('-=' * 15)
+print(f'Os 5 primeiros são {x[0:5]}')
+print('-=' * 15)
+print(f'Os 4 últimos colocados são: {x[-4:1]}')
+print('-=' * 15)
+print(f'Listagem em ordem Alfabética: {sorted(x)}')
+print('-=' * 15)
+print(f'O Santos esta na {x.index("Santos")+1}° posição')
